@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <BaseOutputPath>.\</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SeaDropRich\SeaDropRich.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DxLibWDotNet">
+      <HintPath>..\SeaDropRich\DxLibWDotNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

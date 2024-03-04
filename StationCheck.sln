@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StationCheck", "StationCheck.csproj", "{BE1553FC-67B3-46CC-8891-1A35AD13DDC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeaDropRich", "..\SeaDropRich\SeaDropRich.csproj", "{F753A25F-46CA-4506-8B28-B07DB00F97C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE1553FC-67B3-46CC-8891-1A35AD13DDC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1553FC-67B3-46CC-8891-1A35AD13DDC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1553FC-67B3-46CC-8891-1A35AD13DDC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1553FC-67B3-46CC-8891-1A35AD13DDC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F753A25F-46CA-4506-8B28-B07DB00F97C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F753A25F-46CA-4506-8B28-B07DB00F97C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F753A25F-46CA-4506-8B28-B07DB00F97C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F753A25F-46CA-4506-8B28-B07DB00F97C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {704EADA2-3C72-4261-97E6-404E29816CE2}
+	EndGlobalSection
+EndGlobal
