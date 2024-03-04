@@ -13,12 +13,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SeaDropRich\SeaDropRich.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="DxLibWDotNet">
-      <HintPath>..\SeaDropRich\DxLibWDotNet.dll</HintPath>
+      <HintPath>DxLibWDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="SeaDropRich">
+      <HintPath>SeaDropRich.dll</HintPath>
     </Reference>
   </ItemGroup>
 
